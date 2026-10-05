@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "领域事件基础校验",
+  "description": "省级入境游编排后端：领域事件、旅程编排投影、幂等资金与凭证、最小披露与审计",
   "scripts": {
     "test": "node --test"
   }

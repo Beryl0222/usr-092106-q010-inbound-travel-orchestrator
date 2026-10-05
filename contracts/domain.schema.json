@@ -20,19 +20,42 @@
       "type": "string",
       "enum": [
         "IDENTITY_VERIFIED",
+        "PARTY_FORMED",
+        "PREFERENCE_RECORDED",
         "PLAN_PROPOSED",
+        "PLAN_REVALIDATED",
+        "HOLD_REQUESTED",
         "HOLD_CONFIRMED",
+        "HOLD_RELEASED",
         "PARTNER_FAILED",
-        "REFUND_COMPLETED"
+        "ALTERNATIVE_PROPOSED",
+        "PAYMENT_AUTHORIZED",
+        "PAYMENT_CAPTURED",
+        "PAYMENT_REFUNDED",
+        "CREDENTIAL_ISSUED",
+        "CREDENTIAL_REDEEMED",
+        "ELIGIBILITY_CONFIRMED",
+        "CLEARANCE_RECORDED",
+        "REFUND_FILED",
+        "REFUND_COMPLETED",
+        "TRANSLATION_PUBLISHED",
+        "TRANSLATION_CORRECTED",
+        "DISCLOSURE_GRANTED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "traveler_profile",
+        "travel_party",
         "journey_plan",
         "service_hold",
-        "travel_credential"
+        "payment_token",
+        "hotel_eligibility",
+        "travel_credential",
+        "tax_refund_case",
+        "translation_entry",
+        "disclosure_record"
       ]
     },
     "aggregate_id": {
